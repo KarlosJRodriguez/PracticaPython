@@ -16,6 +16,7 @@ while edad<0 or edad>100:
 print("Gracias por colaborar")
 print("Edad del aspirante" + str(edad))
 
+#este es otro programa
 print("Programa de calculo de raiz cuadrada")
 num = int(input("Introduce un numero: "))
 intentos=0
@@ -34,3 +35,20 @@ if intentos<2:
 	solucion=math.sqrt(num)
 	print("La raiz cuadrada es: " + str(solucion))
 
+#este es otro programa
+for letra in "Python":
+	if letra=="h":
+		continue
+
+	print("Viendo la letra: " + letra)
+
+#este es otro programa
+nombre="karlos Avila"
+contador=0
+
+for i in nombre:
+	if i == " ":
+		continue
+	contador+=1
+
+print(contador)
