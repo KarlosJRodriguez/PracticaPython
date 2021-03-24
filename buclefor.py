@@ -43,4 +43,16 @@ for i in range(3):
 bucle for recorre tuplas listas y cadenas de caracteres
 no tienen un contador como vb o c#
 	'''
+for r in range(5,50,2):
+	print(f"valor de la variable {r}")
 
+valido=False
+email3=input("Introduce tu email: ")
+for h in range(len(email3)):
+	if email3[i]=="@":
+		valido=True
+
+if valido:
+	print("Correcto")
+else:
+	print("Incorrecto")
